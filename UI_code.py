@@ -27,9 +27,9 @@ st.write("Currently, it has just the data of a few days but if it seems useful, 
 develop it to include daily updates. Tool leverages python for crawling Hindu's archives and GenAI\
 to summarize the newspaper articles.")
 
-# In more advanced version, a GenAI enabled chatbot can be built on top of it, making it a ChatGPT like bot for Hindu newspaper.")
+st.write("In more advanced version, a GenAI enabled chatbot can be built on top of it, making it a ChatGPT like bot for Hindu newspaper.")
 
-# PS - We selected Hindu because UPSC/CAT aspirants mostly refer to Hindu for current affairs.")
+st.write("PS - We selected Hindu because UPSC/CAT aspirants mostly refer to Hindu for current affairs.")
 
 # Upload Excel file
 # uploaded_file = st.file_uploader("Choose an Excel file", type=["xlsx", "xls"])
