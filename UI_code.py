@@ -21,13 +21,13 @@ def filter_data(data, filters1, filters2):
 # Streamlit UI
 st.title("The Hindu Newspaper Summarizer")
 
-st.write("This app is a brainchild of myself and Sourabh Swarnkar. It's designed to help anyone \
--specificially UPSC/CAT aspirants or anyone interested in getting info on current affairs - a summary \
-of any day's HINDU newspaper. Currently, it has just the data of a few days but if it seems useful, we can \
+st.write("This app is a brainchild of myself and Sourabh Swarnkar")
+st.write(It's designed to help anyone interested in getting summary of current affairs")
+st.write("Currently, it has just the data of a few days but if it seems useful, we can \
 develop it to include daily updates. Tool leverages python for crawling Hindu's archives and GenAI\
-to summarize the newspaper articles.\
+to summarize the newspaper articles.")
 
-In more advanced version, a GenAI enabled chatbot can be built on top of it, making it a ChatGPT like bot for Hindu newspaper.")
+# In more advanced version, a GenAI enabled chatbot can be built on top of it, making it a ChatGPT like bot for Hindu newspaper.")
 
 # PS - We selected Hindu because UPSC/CAT aspirants mostly refer to Hindu for current affairs.")
 
