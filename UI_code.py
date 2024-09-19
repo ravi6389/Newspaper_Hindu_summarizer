@@ -30,7 +30,7 @@ to summarize the newspaper articles.\
 In more advanced version, a GenAI enabled chatbot can be built on top of it, making it a ChatGPT \
 like bot for Hindu newspaper. \
 
-PS - We selected Hindu because UPSC/CAT aspirants mostly refer to Hindu for current affairs."
+PS - We selected Hindu because UPSC/CAT aspirants mostly refer to Hindu for current affairs.")
 
 # Upload Excel file
 # uploaded_file = st.file_uploader("Choose an Excel file", type=["xlsx", "xls"])
