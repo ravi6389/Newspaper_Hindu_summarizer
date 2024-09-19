@@ -21,7 +21,7 @@ def filter_data(data, filters1, filters2):
 # Streamlit UI
 st.title("The Hindu Newspaper Summarizer")
 
-st.write("This app is a brainchild of myself and Sourabh Swarnkar")
+st.write("This app is a brainchild of myself and Sourabh Swarnkar.")
 st.write("It is designed to help anyone interested in getting summary of current affairs.")
 st.write("Currently, it has just the data of a few days but if it seems useful, we can \
 develop it to include daily updates. Tool leverages python for crawling Hindu's archives and GenAI\
