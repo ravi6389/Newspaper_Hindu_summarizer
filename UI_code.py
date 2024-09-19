@@ -26,7 +26,7 @@ st.title("The Hindu Newspaper Summarizer")
 
 # if uploaded_file is not None:
     # Load the data
-data = pd.read_excel("C:\\Users\\RSPRASAD\\OneDrive - Danaher\\Learning\\UPSC_Crawler\\data\\Summary.xlsx")
+data = pd.read_excel("Summary.xlsx")
 data['Date'] = pd.to_datetime(data['Date']).dt.date
 # Display the data
 
