@@ -21,6 +21,17 @@ def filter_data(data, filters1, filters2):
 # Streamlit UI
 st.title("The Hindu Newspaper Summarizer")
 
+st.write("This app is a brainchild of myself and Sourabh Swarnkar. It's designed to help anyone \
+-specificially UPSC/CAT aspirants or anyone interested in getting info on current affairs - a summary \
+of any day's HINDU newspaper. Currently, it has just the data of a few days but if it seems useful, we can \
+develop it to include daily updates. Tool leverages python for crawling Hindu's archives and GenAI\
+to summarize the newspaper articles.\
+
+In more advanced version, a GenAI enabled chatbot can be built on top of it, making it a ChatGPT \
+like bot for Hindu newspaper. \
+
+PS - We selected Hindu because UPSC/CAT aspirants mostly refer to Hindu for current affairs."
+
 # Upload Excel file
 # uploaded_file = st.file_uploader("Choose an Excel file", type=["xlsx", "xls"])
 
@@ -53,7 +64,7 @@ data['Content'] = data['Content'].apply(lambda x:remove_up_to_nth_occurrence(x, 
 data['Summary'] = data['Summary'].str.replace('Here is a summary of the article in 3 sentences:',' ', regex = True)
 
 st.write("Data Preview:")
-st.dataframe(data.head(10))
+st.dataframe(data.head(3))
 # data['Date2'] = pd.to_datetime(data['Date'], format='%d-%m-%Y').dt.date
 
 # Get unique values for radio buttons
